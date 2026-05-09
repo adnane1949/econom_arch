@@ -1,0 +1,10 @@
+# Local development dependencies — NOT used in Docker.
+# Installs just enough for IDE import resolution and local testing.
+#
+# Install with:
+#   .\.venv\Scripts\pip install -r requirements-dev.txt
+
+-r requirements.txt
+
+# Airflow stubs so the IDE can resolve DAG imports without the full stack
+apache-airflow==2.9.3

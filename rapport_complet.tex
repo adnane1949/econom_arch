@@ -1,0 +1,318 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tocbibind}
+\usepackage{setspace}
+
+\geometry{
+  a4paper,
+  left=25mm,
+  right=25mm,
+  top=25mm,
+  bottom=25mm,
+}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{
+    \vspace{2cm}
+    \Huge\textbf{Projet : Architecture de Données}\\
+    \vspace{1cm}
+    \Large Plateforme Big Data pour la Collecte et l'Analyse des Articles de Presse
+    \vspace{3cm}
+}
+
+\author{
+    \Large \textbf{Réalisé par :} \\
+    \Large Habbaz Adnane \\
+    \Large Habachi Anas \\
+    \Large Eddehoum Ilyass
+}
+
+\date{\vspace{2cm}\today}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+Nous tenons à exprimer nos sincères remerciements à toutes les personnes qui ont contribué de près ou de loin à la réalisation de ce projet d'Architecture de Données. Leur soutien, leurs conseils avisés et leurs encouragements constants ont été précieux tout au long de la conception et du développement de cette plateforme Big Data.
+
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+Ce document présente le rapport détaillé de conception et d'implémentation d'une plateforme Big Data orientée vers la collecte, le stockage, la transformation et l'analyse d'articles de presse (financière et généraliste). L'objectif principal de ce projet est de fournir une solution complète et résiliente permettant d'identifier les tendances de l'actualité, d'analyser les thèmes dominants et de suivre les événements en temps réel. La solution mise en œuvre repose sur une architecture distribuée moderne et intègre des concepts clés de l'industrie Data : l'ingestion de données hybride (Batch et Streaming), la mise en place d'un Data Lake distribué, l'utilisation de l'architecture Médaillon (Bronze, Silver, Gold), la création de pipelines ETL/ELT robustes, ainsi que l'assurance de la qualité et de la gouvernance des données. Ce rapport documente chaque phase du cycle de vie des données, des sources initiales (Web Scraping via Python) à la visualisation finale via des tableaux de bord, en passant par le traitement avec des outils standards de l'industrie tels qu'Apache Kafka, MinIO, Apache Spark, PostgreSQL et Apache Airflow.
+
+\tableofcontents
+\listoffigures
+
+\chapter{Introduction Générale}
+\section{Contexte du Projet}
+Dans le contexte numérique actuel, les médias et agences de presse publient quotidiennement des dizaines de milliers d'articles, générant ainsi un volume massif de données textuelles non structurées. Ces données constituent une source d'information inestimable pour divers acteurs (analystes financiers, chercheurs, gouvernements, grand public) à condition d'être correctement collectées, traitées et analysées. L'exploitation de ces données permet non seulement d'identifier les tendances de l'actualité, mais aussi d'analyser les thèmes dominants, de suivre les événements politiques et économiques en temps réel, et potentiellement de développer des modèles pour détecter les fausses informations (fake news).
+
+Cependant, la gestion de ce flux continu d'informations nécessite des infrastructures robustes, capables de gérer les \textbf{3V du Big Data} :
+\begin{itemize}
+    \item \textbf{Volume} : Capacité à stocker l'historique complet de tous les articles.
+    \item \textbf{Vélocité} : Capacité à ingérer et traiter les informations en temps réel au fil des publications.
+    \item \textbf{Variété} : Capacité à parser et unifier des données provenant de structures HTML de sites hétérogènes.
+\end{itemize}
+
+\section{Problématique}
+La problématique centrale de ce projet réside dans la conception et le déploiement d'une architecture de données bout-en-bout (End-to-End). Il faut automatiser le processus d'extraction d'informations depuis des sources hétérogènes (sites web d'actualité internationaux et marocains), stocker ces informations de manière pérenne et scalable, les nettoyer et les transformer pour en extraire des KPIs pertinents, tout en garantissant un haut niveau de qualité des données et une traçabilité sans faille.
+
+La question sous-jacente est : \textit{Comment orchestrer un flux de données continu et par lots (batch et streaming), tout en structurant les données brutes dans un Data Lake pour les rendre interrogeables par des outils de Business Intelligence via un Data Warehouse ?}
+
+\section{Objectifs du Projet (Cahier des charges)}
+Les objectifs spécifiques du projet découlent directement des directives établies dans le cahier des charges :
+\begin{itemize}
+    \item \textbf{Collecte de données web (Web Scraping) :} Développer un extracteur de données robuste capable de naviguer sur plusieurs sites d'actualité et d'en extraire le contenu pertinent (titre de l'article, auteur, date de publication, catégorie, contenu textuel, source de l'article, URL).
+    \item \textbf{Implémentation d'une architecture distribuée :} Assembler un écosystème de technologies modernes (conteneurisées via Docker) capables de communiquer de manière asynchrone et synchrone.
+    \item \textbf{Création d'un Data Lake :} Stocker les données brutes de manière centralisée pour conserver l'historique complet, sans schéma imposé à l'écriture (Schema-on-read).
+    \item \textbf{Architecture Médaillon :} Structurer le stockage du Data Lake en trois zones de qualité progressive : Bronze (données brutes), Silver (données nettoyées et enrichies), et Gold (données agrégées prêtes pour l'analyse).
+    \item \textbf{Processus ETL/ELT :} Implémenter les algorithmes de transformation pour passer d'une couche à l'autre de manière incrémentale.
+    \item \textbf{Gestion Batch et Streaming :} Supporter à la fois l'ingestion programmée et l'ingestion événementielle en temps réel.
+    \item \textbf{Qualité et Gouvernance des Données :} Assurer la fiabilité des données via des tests stricts de complétude, de cohérence et de validité, tout en gardant une traçabilité totale du lignage (Data Lineage).
+\end{itemize}
+
+\chapter{État de l'Art et Choix Technologiques}
+
+La mise en place d'une plateforme Big Data moderne requiert la sélection méticuleuse d'un ensemble d'outils et de frameworks qui interagissent efficacement.
+
+\section{L'écosystème Big Data et Docker}
+L'ensemble de la solution est déployé sous forme de conteneurs Docker pour garantir une portabilité et une isolation parfaite des processus. La figure ci-dessous montre les différents conteneurs actifs de notre architecture.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{docker.png}
+    \caption{Vue des conteneurs Docker (Postgres, MinIO, Zookeeper, Spark, Kafka, Airflow)}
+\end{figure}
+
+\section{Collecte : Python et BeautifulSoup}
+Pour la couche d'acquisition (Web Scraping), le langage Python s'est imposé comme une évidence en raison de sa syntaxe expressive et de son vaste écosystème de bibliothèques orientées data. Nous utilisons des requêtes asynchrones et des parseurs natifs comme BeautifulSoup pour extraire les données du code source HTML avec une faible empreinte mémoire.
+
+\section{Ingestion Temps Réel : Apache Kafka}
+Apache Kafka a été choisi pour gérer l'ingestion des données en mode streaming. Kafka est une plateforme distribuée de streaming d'événements, conçue pour le haut débit et la tolérance aux pannes. Dans notre architecture, Kafka agit comme un tampon :
+\begin{itemize}
+    \item \textbf{Producteur} : Le module de scraping publie chaque article comme un événement.
+    \item \textbf{Topic} : Les messages sont stockés dans le topic \texttt{financial-news-raw}.
+    \item \textbf{Consommateur} : Le module d'ingestion lit le flux pour écrire les données sur le Data Lake.
+\end{itemize}
+
+\section{Stockage Distribué (Data Lake) : MinIO}
+MinIO a été sélectionné pour constituer le Data Lake. MinIO est un stockage hautes performances, 100\% compatible avec l'API Amazon S3. Il héberge nos buckets (Bronze, Silver, Gold).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{minio.png}
+    \caption{Interface MinIO montrant les différents buckets de l'Architecture Médaillon}
+\end{figure}
+
+\section{Traitement Distribué : Apache Spark}
+Pour le traitement des données lourdes et les agrégations complexes, Apache Spark est utilisé. Son interface web permet de monitorer l'état du cluster et l'exécution des Jobs.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{spark.png}
+    \caption{Interface Apache Spark Master montrant les applications exécutées}
+\end{figure}
+
+\section{Orchestration des Pipelines : Apache Airflow}
+L'automatisation et l'orchestration des workflows de données sont assurées par Apache Airflow. Il permet de définir des graphes orientés acycliques (DAGs).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{airflow.png}
+    \caption{Interface Apache Airflow montrant l'exécution complète du DAG de données}
+\end{figure}
+
+\chapter{Architecture Générale du Système}
+
+\section{Flux de Données (Data Flow)}
+L'information circule au sein du système selon le schéma suivant :
+\begin{enumerate}
+    \item \textbf{Acquisition (Scraping) :} Extraction des articles et création d'événements JSON.
+    \item \textbf{Mise en file d'attente (Kafka) :} Poussée des événements sur le topic Kafka.
+    \item \textbf{Ingestion Bronze (Kafka to MinIO) :} Écriture de fichiers \texttt{.jsonl} consolidés dans la zone Bronze.
+    \item \textbf{Transformation Silver (Bronze to Silver) :} Aplatissement de la structure JSON (Flattening), filtrage et nettoyage.
+    \item \textbf{Agrégation Gold (Spark) :} Calcul des KPIs (Tendances, Sentiments, Comptages) par Spark.
+    \item \textbf{Chargement Entrepôt (Warehouse Loader) :} Upsert des données Gold dans PostgreSQL.
+    \item \textbf{Visualisation (Dashboard) :} Affichage des statistiques sur une interface web.
+\end{enumerate}
+
+\section{L'Architecture Médaillon Détaillée}
+Le stockage des données dans le Data Lake (MinIO) est structuré selon les meilleures pratiques :
+
+\subsection{Zone Bronze (Couche Raw)}
+La couche Bronze est une copie exacte et inaltérée des données sources, stockée en JSON Lines (\texttt{.jsonl}). Elle contient une structure hiérarchique complexe incluant les métadonnées, le contenu brut, et les entités extraites.
+
+\subsection{Zone Silver (Couche Cleansed \& Conformed)}
+La couche Silver contient les données nettoyées, normalisées et préparées pour l'analyse.
+\begin{itemize}
+    \item \textbf{Flattening} : Les structures JSON imbriquées sont transformées en colonnes simples.
+    \item \textbf{Nettoyage} : Filtrage des articles invalides.
+    \item \textbf{Déduplication} : Suppression des articles en double.
+\end{itemize}
+
+\subsection{Zone Gold (Couche Aggregated \& Business-level)}
+La couche Gold contient des données orientées "métier" prêtes pour la BI (Business Intelligence). Ce sont des données agrégées (sommes, moyennes, comptages).
+
+\chapter{Cycle de Vie de la Donnée : Exemple Pratique (Bronze $\rightarrow$ Silver $\rightarrow$ Gold)}
+
+Pour mieux comprendre le fonctionnement de notre pipeline ETL, suivons le cheminement d'un article spécifique, depuis son extraction brute jusqu'à son agrégation analytique.
+
+\section{1. L'Article dans la Zone Bronze (Brut)}
+Lorsqu'un article est récupéré par le scraper et ingéré via Kafka, il est sauvegardé dans le Data Lake sous forme d'une ligne JSON complexe et hiérarchique.
+Voici un exemple simplifié d'un enregistrement Bronze :
+
+\begin{lstlisting}[language=json]
+{
+  "metadata": {
+    "article_id": "a1b2c3d4",
+    "source": "LEconomiste",
+    "url": "https://leconomiste.com/article1",
+    "published_at": "2026-05-09T14:30:00Z"
+  },
+  "article": {
+    "title": "Hausse historique de la bourse de Casablanca",
+    "content": "La bourse a connu aujourd'hui une croissance exceptionnelle...",
+    "language": "fr"
+  },
+  "analytics": {
+    "topic": "Finance",
+    "sentiment_score": 0.85
+  },
+  "quality": {
+    "is_valid": true,
+    "quality_score": 0.95
+  }
+}
+\end{lstlisting}
+
+\section{2. L'Article dans la Zone Silver (Nettoyé et Aplani)}
+Le script \texttt{bronze\_to\_silver.py} lit ce fichier JSON. Il vérifie que \texttt{is\_valid} est \texttt{true}, puis il aplatit la structure (Flattening) pour faciliter l'analyse par les outils SQL et Spark. L'enregistrement Silver devient plat :
+
+\begin{lstlisting}[language=json]
+{
+  "article_id": "a1b2c3d4",
+  "source": "LEconomiste",
+  "url": "https://leconomiste.com/article1",
+  "published_at": "2026-05-09T14:30:00Z",
+  "title": "Hausse historique de la bourse de Casablanca",
+  "content": "La bourse a connu aujourd'hui une croissance exceptionnelle...",
+  "language": "fr",
+  "topic": "Finance",
+  "sentiment_score": 0.85,
+  "silver_processed_at": "2026-05-09T15:00:00Z"
+}
+\end{lstlisting}
+
+\section{3. L'Article dans la Zone Gold (Agrégé)}
+La zone Gold ne contient plus l'article individuel, mais des métriques globales calculées par Apache Spark (\texttt{silver\_to\_gold.py}). L'article de L'Economiste va contribuer à modifier plusieurs compteurs et moyennes dans le fichier Gold :
+
+\begin{lstlisting}[language=json]
+{
+  "run_id": "run-20260509-1500",
+  "generated_at": "2026-05-09T15:10:00Z",
+  "record_count": 325,
+  "metrics": {
+    "source": [
+      {"value": "LEconomiste", "count": 131},
+      {"value": "Reuters", "count": 55}
+    ],
+    "topic": [
+      {"value": "Finance", "count": 120},
+      {"value": "Technology", "count": 95}
+    ],
+    "sentiment_by_source": [
+      {"source": "LEconomiste", "average_sentiment_score": 0.35},
+      {"source": "Reuters", "average_sentiment_score": 0.12}
+    ]
+  }
+}
+\end{lstlisting}
+Ce fichier Gold est ensuite chargé dans la base PostgreSQL par \texttt{warehouse\_loader.py}.
+
+\chapter{Visualisation et Tableaux de Bord}
+
+La valeur finale de la plateforme réside dans la restitution visuelle des informations traitées. Un tableau de bord a été développé pour présenter les données issues de la zone Gold (via PostgreSQL ou via un fichier JSON directement).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{dashboard.png}
+    \caption{Tableau de bord (Dashboard) affichant les analyses financières}
+\end{figure}
+
+Le tableau de bord permet de visualiser rapidement :
+\begin{itemize}
+    \item \textbf{Le volume global} d'articles traités.
+    \item \textbf{La répartition par source} (ex: L'Economiste est la source la plus prolifique avec 131 articles).
+    \item \textbf{L'analyse de sentiment globale} (positif, neutre, négatif).
+    \item \textbf{La moyenne des sentiments par source}, permettant de voir quels médias sont les plus optimistes ou pessimistes.
+    \item \textbf{L'état de la qualité des données} (100\% des tests de qualité sont passés avec succès).
+\end{itemize}
+
+\chapter{Qualité des Données, Gouvernance et Orchestration}
+
+\section{Contrôle de la Qualité des Données}
+Conformément au cahier des charges, des contrôles rigoureux sont mis en œuvre. La qualité est évaluée sur trois dimensions :
+\begin{enumerate}
+    \item \textbf{La Complétude} : Vérifie l'absence de valeurs nulles (Titre, Date, Contenu présents).
+    \item \textbf{La Cohérence} : Vérifie que la somme des articles par catégorie correspond au nombre total d'articles.
+    \item \textbf{La Validité} : Les scores de sentiment doivent être dans l'intervalle [-1, 1], et le contenu ne doit pas être trop court.
+\end{enumerate}
+
+\section{Orchestration avec Apache Airflow}
+Le pipeline est orchestré par un DAG Airflow composé de 5 tâches séquentielles, exécutées toutes les heures (\texttt{@hourly}) :
+\begin{lstlisting}[language=Python]
+scrape_to_kafka >> kafka_to_bronze >> bronze_to_silver >> silver_to_gold_spark >> load_gold_warehouse
+\end{lstlisting}
+Cette automatisation garantit la mise à jour régulière du Dashboard sans intervention humaine.
+
+\chapter{Conclusion Générale et Perspectives}
+
+Ce projet a permis la conception de bout en bout et l'implémentation réussie d'une plateforme Big Data de grade industriel. En partant de sources d'informations hétérogènes sur le Web, le pipeline automatise un cycle de vie de la donnée complexe. 
+
+Le système répond à l'intégralité du cahier des charges : gestion de l'ingestion duale (Streaming via Kafka, Batch horaire via Airflow), Data Lake structuré selon l'architecture Médaillon (Bronze, Silver, Gold), transformations ETL/ELT distribuées avec Apache Spark, et Data Warehousing avec PostgreSQL.
+
+\textbf{Perspectives d'évolution :}
+\begin{itemize}
+    \item Intégration de modèles NLP avancés (Deep Learning) pour la détection de Fake News.
+    \item Déploiement Cloud-Native (Kubernetes) pour un auto-scaling des ressources.
+    \item Développement d'un outil de BI interactif (Apache Superset) branché sur PostgreSQL.
+\end{itemize}
+
+\end{document}

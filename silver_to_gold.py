@@ -51,24 +51,24 @@ def download_silver_jsonl(client: Any, bucket: str, prefix: str, output_path: Pa
                 continue
             response = client.get_object(bucket, obj.object_name)
             try:
-                for raw_line in response.stream(32 * 1024):
-                    for line in raw_line.decode("utf-8").splitlines():
-                        line = line.strip()
-                        if not line:
-                            continue
-                        try:
-                            record = json.loads(line)
-                        except json.JSONDecodeError:
-                            continue
-                        article_id = str(record.get("article_id") or "")
-                        if not article_id or article_id in seen_article_ids:
-                            continue
-                        seen_article_ids.add(article_id)
-                        output.write(json.dumps(record, ensure_ascii=False) + "\n")
-                        written += 1
+                payload = response.read().decode("utf-8")
             finally:
                 response.close()
                 response.release_conn()
+            for line in payload.splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    record = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                article_id = str(record.get("article_id") or "")
+                if not article_id or article_id in seen_article_ids:
+                    continue
+                seen_article_ids.add(article_id)
+                output.write(json.dumps(record, ensure_ascii=False) + "\n")
+                written += 1
 
     return written
 

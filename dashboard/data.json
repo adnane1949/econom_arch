@@ -1,212 +1,228 @@
 {
   "gold": {
-    "generated_at": "2026-05-08T16:34:24Z",
+    "generated_at": "2026-05-09T17:02:06Z",
     "engine": "spark",
-    "record_count": 30,
-    "average_quality_score": 0.738,
+    "record_count": 337,
+    "average_quality_score": 0.6599,
     "articles_by_source": [
       {
-        "value": "Investing",
-        "count": 10
+        "value": "LEconomiste",
+        "count": 131
       },
       {
         "value": "YahooFinance",
-        "count": 10
+        "count": 89
       },
       {
-        "value": "LEconomiste",
-        "count": 5
+        "value": "Investing",
+        "count": 62
       },
       {
         "value": "Reuters",
-        "count": 5
+        "count": 55
       }
     ],
     "articles_by_topic": [
       {
+        "value": "Technology",
+        "count": 101
+      },
+      {
         "value": "Stock Market",
-        "count": 14
+        "count": 77
       },
       {
         "value": "Business",
-        "count": 4
-      },
-      {
-        "value": "Technology",
-        "count": 4
+        "count": 64
       },
       {
         "value": "Currencies",
-        "count": 3
-      },
-      {
-        "value": "Banking",
-        "count": 2
+        "count": 34
       },
       {
         "value": "Oil Market",
-        "count": 2
+        "count": 33
       },
       {
         "value": "Inflation",
-        "count": 1
+        "count": 18
+      },
+      {
+        "value": "Banking",
+        "count": 7
+      },
+      {
+        "value": "Economy",
+        "count": 3
       }
     ],
     "articles_by_sentiment": [
       {
-        "value": "positive",
-        "count": 16
+        "value": "neutral",
+        "count": 216
       },
       {
-        "value": "neutral",
-        "count": 12
+        "value": "positive",
+        "count": 85
       },
       {
         "value": "negative",
-        "count": 2
+        "count": 36
       }
     ],
     "articles_by_language": [
       {
         "value": "en",
-        "count": 25
+        "count": 206
       },
       {
         "value": "fr",
-        "count": 5
+        "count": 131
       }
     ],
     "articles_by_source_country": [
       {
         "value": "US",
-        "count": 20
+        "count": 151
       },
       {
         "value": "MA",
-        "count": 5
+        "count": 131
       },
       {
         "value": "UK",
-        "count": 5
+        "count": 55
       }
     ],
     "average_sentiment_by_source": [
       {
         "source": "Investing",
-        "average_sentiment_score": 0.524,
-        "article_count": 10
+        "average_sentiment_score": 0.1997,
+        "article_count": 62
       },
       {
         "source": "LEconomiste",
-        "average_sentiment_score": 0.2,
-        "article_count": 5
+        "average_sentiment_score": 0.0305,
+        "article_count": 131
       },
       {
         "source": "Reuters",
-        "average_sentiment_score": 0.2,
-        "article_count": 5
+        "average_sentiment_score": 0.0182,
+        "article_count": 55
       },
       {
         "source": "YahooFinance",
-        "average_sentiment_score": 0.082,
-        "article_count": 10
+        "average_sentiment_score": 0.1606,
+        "article_count": 89
       }
     ],
     "top_tags": [
       {
-        "value": "stock",
-        "count": 7
-      },
-      {
         "value": "company",
-        "count": 4
+        "count": 33
       },
       {
-        "value": "price",
-        "count": 4
+        "value": "maroc",
+        "count": 25
+      },
+      {
+        "value": "million",
+        "count": 25
       },
       {
         "value": "said",
-        "count": 4
+        "count": 22
       },
       {
         "value": "year",
-        "count": 4
+        "count": 21
       },
       {
-        "value": "cramer",
-        "count": 3
+        "value": "stock",
+        "count": 16
       },
       {
-        "value": "jobs",
-        "count": 3
+        "value": "your",
+        "count": 15
       },
       {
-        "value": "nasdaq",
-        "count": 3
+        "value": "nyse",
+        "count": 12
       },
       {
-        "value": "prices",
-        "count": 3
+        "value": "quarter",
+        "count": 11
       },
       {
-        "value": "strong",
-        "count": 3
+        "value": "accord",
+        "count": 10
       }
     ],
     "top_companies": [
       {
+        "value": "Best Energy",
+        "count": 10
+      },
+      {
         "value": "Alphabet Inc",
-        "count": 1
+        "count": 2
       },
       {
-        "value": "Bangkok-based OBON Corp",
-        "count": 1
+        "value": "Attijariwafa Bank",
+        "count": 2
       },
       {
-        "value": "Caseys General Stores Inc",
-        "count": 1
+        "value": "CFG Bank",
+        "count": 2
       },
       {
-        "value": "Ceres Power Holdings",
-        "count": 1
+        "value": "Development Alternatives Inc",
+        "count": 2
       },
       {
-        "value": "Cloud Services Market Alphabet Inc",
-        "count": 1
+        "value": "Exit The Kayne Anderson Energy",
+        "count": 2
       },
       {
-        "value": "Geely Sweden Holdings",
-        "count": 1
+        "value": "Kayne Anderson Energy",
+        "count": 2
       },
       {
-        "value": "Holley Inc",
-        "count": 1
+        "value": "MEA CIH Bank",
+        "count": 2
       },
       {
-        "value": "If Microsoft",
-        "count": 1
+        "value": "The Apple",
+        "count": 2
       },
       {
-        "value": "Ray-Ban Meta",
-        "count": 1
-      },
-      {
-        "value": "Standard Chartered Bank",
-        "count": 1
+        "value": "The Bank",
+        "count": 2
       }
     ],
     "top_currencies": [
       {
         "value": "DOLLARS",
-        "count": 3
+        "count": 20
       },
       {
         "value": "DOLLAR",
-        "count": 2
+        "count": 16
+      },
+      {
+        "value": "DIRHAMS",
+        "count": 7
       },
       {
         "value": "EURO",
+        "count": 6
+      },
+      {
+        "value": "DIRHAM",
+        "count": 2
+      },
+      {
+        "value": "EUROS",
         "count": 2
       },
       {
@@ -214,7 +230,7 @@
         "count": 1
       },
       {
-        "value": "EUROS",
+        "value": "JPY",
         "count": 1
       },
       {
@@ -229,145 +245,145 @@
     "top_countries_mentioned": [
       {
         "value": "US",
-        "count": 11
+        "count": 53
+      },
+      {
+        "value": "Maroc",
+        "count": 39
       },
       {
         "value": "China",
-        "count": 5
-      },
-      {
-        "value": "Canada",
-        "count": 2
-      },
-      {
-        "value": "Japan",
-        "count": 2
-      },
-      {
-        "value": "Spain",
-        "count": 2
+        "count": 16
       },
       {
         "value": "United States",
-        "count": 2
+        "count": 15
       },
       {
-        "value": "Brazil",
-        "count": 1
+        "value": "Canada",
+        "count": 8
+      },
+      {
+        "value": "Spain",
+        "count": 7
       },
       {
         "value": "France",
-        "count": 1
+        "count": 6
       },
       {
-        "value": "India",
-        "count": 1
+        "value": "Morocco",
+        "count": 5
       },
       {
-        "value": "Qatar",
-        "count": 1
+        "value": "Russia",
+        "count": 5
+      },
+      {
+        "value": "Japan",
+        "count": 4
       }
     ],
     "latest_articles": [
       {
-        "article_id": "leconomiste_20260508_275b5f",
-        "source": "LEconomiste",
-        "title": "Abdelwahab Doukkali n'est plus - L'Economiste",
-        "url": "https://www.leconomiste.com/flash-infos/abdelwahab-doukkali-nest-plus/",
-        "publication_timestamp": null,
-        "sentiment": "neutral",
-        "topic": "Technology",
-        "quality_score": 0.55
-      },
-      {
-        "article_id": "leconomiste_20260508_823e5b",
-        "source": "LEconomiste",
-        "title": "Hantavirus : rapatriement des passagers du MV Hondius prévu dimanche à Tenerife - L'Economiste",
-        "url": "https://www.leconomiste.com/flash-infos/hantavirus-rapatriement-des-passagers-du-mv-hondius-prevu-dimanche-a-tenerife/",
-        "publication_timestamp": null,
-        "sentiment": "neutral",
-        "topic": "Business",
-        "quality_score": 0.67
-      },
-      {
-        "article_id": "leconomiste_20260508_ce6893",
-        "source": "LEconomiste",
-        "title": "Coopération sécuritaire : Abdellatif Hammouchi en visite de travail en Turquie - L'Economiste",
-        "url": "https://www.leconomiste.com/flash-infos/cooperation-securitaire-abdellatif-hammouchi-en-visite-de-travail-en-turquie/",
-        "publication_timestamp": null,
-        "sentiment": "neutral",
-        "topic": "Technology",
-        "quality_score": 0.63
-      },
-      {
-        "article_id": "yahoofinance_20260508_7dab12",
+        "article_id": "yahoofinance_20260509_46c2a4",
         "source": "YahooFinance",
-        "title": "Toyota operating profits drop 21.5% as US tariffs take Y1.38tn toll",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/toyota-operating-profits-drop-21-152020806.html",
-        "publication_timestamp": "2026-05-08T15:20:20Z",
-        "sentiment": "positive",
-        "topic": "Currencies",
-        "quality_score": 0.92
-      },
-      {
-        "article_id": "investing_20260508_c5455b",
-        "source": "Investing",
-        "title": "Form 144 Plexus For: 8 May",
-        "url": "https://www.investing.com/news/filings/form-144-plexus-for-8-may-93CH-4673312",
-        "publication_timestamp": "2026-05-08T15:18:15Z",
-        "sentiment": "positive",
-        "topic": "Stock Market",
-        "quality_score": 0.7
-      },
-      {
-        "article_id": "investing_20260508_985613",
-        "source": "Investing",
-        "title": "Ceres Power grants share options to executives under sharesave plan",
-        "url": "https://www.investing.com/news/company-news/ceres-power-grants-share-options-to-executives-under-sharesave-plan-93CH-4673311",
-        "publication_timestamp": "2026-05-08T15:17:20Z",
+        "title": "Goldman Sachs resets Nvidia stock forecast ahead of earnings",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-nvidia-stock-164700393.html",
+        "publication_timestamp": "2026-05-09T16:47:00Z",
         "sentiment": "positive",
         "topic": "Stock Market",
         "quality_score": 0.92
       },
       {
-        "article_id": "investing_20260508_a0cc3a",
-        "source": "Investing",
-        "title": "Trump administration will win appeal of ruling against temporary tariffs, US trade chief says",
-        "url": "https://www.investing.com/news/economic-indicators/trump-administration-will-win-appeal-of-ruling-against-temporary-tariffs-us-trade-chief-says-4673313",
-        "publication_timestamp": "2026-05-08T15:16:20Z",
+        "article_id": "yahoofinance_20260509_9498ff",
+        "source": "YahooFinance",
+        "title": "How to Analyze Mutual Funds and ETFs",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/analyze-mutual-funds-etfs-164336449.html",
+        "publication_timestamp": "2026-05-09T16:43:36Z",
         "sentiment": "positive",
+        "topic": "Inflation",
+        "quality_score": 0.9
+      },
+      {
+        "article_id": "yahoofinance_20260509_385309",
+        "source": "YahooFinance",
+        "title": "Energy Fund Yielding 7% and Up 14% in a Year Still Wasn’t Enough to Stop This $3 Million Exit",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/energy-fund-yielding-7-14-163538412.html",
+        "publication_timestamp": "2026-05-09T16:35:38Z",
+        "sentiment": "positive",
+        "topic": "Stock Market",
+        "quality_score": 0.9
+      },
+      {
+        "article_id": "yahoofinance_20260509_e90ea4",
+        "source": "YahooFinance",
+        "title": "Could Buying This Beaten-Down Healthcare Stock Make You Rich If It Recovers?",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/could-buying-beaten-down-healthcare-163500394.html",
+        "publication_timestamp": "2026-05-09T16:35:00Z",
+        "sentiment": "negative",
         "topic": "Stock Market",
         "quality_score": 0.91
       },
       {
-        "article_id": "investing_20260508_f6073c",
-        "source": "Investing",
-        "title": "Factbox-Airlines tackle fuel cost surge with price hikes, outlook cuts",
-        "url": "https://www.investing.com/news/stock-market-news/factboxairlines-tackle-fuel-cost-surge-with-price-hikes-outlook-cuts-4673314",
-        "publication_timestamp": "2026-05-08T15:15:06Z",
-        "sentiment": "positive",
-        "topic": "Stock Market",
+        "article_id": "yahoofinance_20260509_3c53f1",
+        "source": "YahooFinance",
+        "title": "McDonald’s CEO sounds warning on consumer trend",
+        "url": "https://finance.yahoo.com/economy/articles/mcdonald-ceo-sounds-warning-consumer-163300868.html",
+        "publication_timestamp": "2026-05-09T16:33:00Z",
+        "sentiment": "negative",
+        "topic": "Inflation",
         "quality_score": 0.91
       },
       {
-        "article_id": "yahoofinance_20260508_d9242d",
+        "article_id": "investing_20260509_e72456",
+        "source": "Investing",
+        "title": "Pacira Q1 2026 slides: EXPAREL growth accelerates, margins compress",
+        "url": "https://www.investing.com/news/company-news/pacira-q1-2026-slides-exparel-growth-accelerates-margins-compress-93CH-4674663",
+        "publication_timestamp": "2026-05-09T16:31:47Z",
+        "sentiment": "positive",
+        "topic": "Inflation",
+        "quality_score": 0.36
+      },
+      {
+        "article_id": "yahoofinance_20260509_fe31ec",
         "source": "YahooFinance",
-        "title": "Polestar first quarter loss widens on tariffs and pricing pressure",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/polestar-first-quarter-loss-widens-151115074.html",
-        "publication_timestamp": "2026-05-08T15:11:15Z",
+        "title": "Goldman Sachs Says 40% of Americans Earning Over $300,000 Are Still Living Paycheck to Paycheck",
+        "url": "https://finance.yahoo.com/economy/policy/articles/goldman-sachs-says-40-americans-163137779.html",
+        "publication_timestamp": "2026-05-09T16:31:37Z",
         "sentiment": "neutral",
-        "topic": "Currencies",
+        "topic": "Inflation",
         "quality_score": 0.92
       },
       {
-        "article_id": "leconomiste_20260508_e21055",
-        "source": "LEconomiste",
-        "title": "Marché obligataire : légère hausse sur le secondaire - L'Economiste",
-        "url": "https://www.leconomiste.com/flash-infos/marche-obligataire-legere-hausse-sur-le-secondaire/",
-        "publication_timestamp": null,
+        "article_id": "yahoofinance_20260509_793448",
+        "source": "YahooFinance",
+        "title": "2 Brilliant Dividend Stocks Down 20% to Buy Before They Rebound",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2-brilliant-dividend-stocks-down-162500147.html",
+        "publication_timestamp": "2026-05-09T16:25:00Z",
         "sentiment": "positive",
-        "topic": "Banking",
-        "quality_score": 0.58
+        "topic": "Stock Market",
+        "quality_score": 0.92
+      },
+      {
+        "article_id": "yahoofinance_20260509_f90846",
+        "source": "YahooFinance",
+        "title": "Why Some Retirees Should Claim Social Security at 62 -- Even if Waiting Until 70 Pays More",
+        "url": "https://finance.yahoo.com/economy/policy/articles/why-retirees-claim-social-security-162000298.html",
+        "publication_timestamp": "2026-05-09T16:20:00Z",
+        "sentiment": "positive",
+        "topic": "Currencies",
+        "quality_score": 0.87
+      },
+      {
+        "article_id": "yahoofinance_20260509_f07856",
+        "source": "YahooFinance",
+        "title": "Energy Fund Yielding 7% and Up 14% in a Year Still Wasn’t Enough to Stop This $3 Million Exit",
+        "url": "https://www.fool.com/coverage/filings/2026/05/09/energy-fund-yielding-7-and-up-14-in-a-year-still-wasn-t-enough-to-stop-this-usd3-million-exit/?.tsrc=rss",
+        "publication_timestamp": "2026-05-09T16:15:38Z",
+        "sentiment": "neutral",
+        "topic": "Stock Market",
+        "quality_score": 0.88
       }
     ]
   },
@@ -378,7 +394,7 @@
         "dimension": "completeness",
         "status": "passed",
         "severity": "error",
-        "observed_value": "generated_at=2026-05-08T16:34:24Z record_count=30",
+        "observed_value": "generated_at=2026-05-09T17:02:06Z record_count=337",
         "expected_value": "generated_at present and record_count integer",
         "details": "Gold snapshot header must identify the run and row count."
       },
@@ -387,7 +403,7 @@
         "dimension": "completeness",
         "status": "passed",
         "severity": "error",
-        "observed_value": "30",
+        "observed_value": "337",
         "expected_value": "> 0",
         "details": "Gold snapshot should contain at least one article."
       },
@@ -405,8 +421,8 @@
         "dimension": "articles_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "30",
-        "expected_value": "30",
+        "observed_value": "337",
+        "expected_value": "337",
         "details": "articles_by_source counts should add up to record_count."
       },
       {
@@ -423,8 +439,8 @@
         "dimension": "articles_by_topic",
         "status": "passed",
         "severity": "error",
-        "observed_value": "30",
-        "expected_value": "30",
+        "observed_value": "337",
+        "expected_value": "337",
         "details": "articles_by_topic counts should add up to record_count."
       },
       {
@@ -441,8 +457,8 @@
         "dimension": "articles_by_sentiment",
         "status": "passed",
         "severity": "error",
-        "observed_value": "30",
-        "expected_value": "30",
+        "observed_value": "337",
+        "expected_value": "337",
         "details": "articles_by_sentiment counts should add up to record_count."
       },
       {
@@ -459,8 +475,8 @@
         "dimension": "articles_by_language",
         "status": "passed",
         "severity": "error",
-        "observed_value": "30",
-        "expected_value": "30",
+        "observed_value": "337",
+        "expected_value": "337",
         "details": "articles_by_language counts should add up to record_count."
       },
       {
@@ -477,8 +493,8 @@
         "dimension": "articles_by_source_country",
         "status": "passed",
         "severity": "error",
-        "observed_value": "30",
-        "expected_value": "30",
+        "observed_value": "337",
+        "expected_value": "337",
         "details": "articles_by_source_country counts should add up to record_count."
       },
       {
@@ -522,8 +538,8 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "Investing=10",
-        "expected_value": "10",
+        "observed_value": "Investing=62",
+        "expected_value": "62",
         "details": "Per-source sentiment article_count should match articles_by_source."
       },
       {
@@ -531,7 +547,7 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.524",
+        "observed_value": "0.1997",
         "expected_value": "between -1 and 1",
         "details": "Average sentiment score must stay in the normalized sentiment range."
       },
@@ -540,8 +556,8 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "LEconomiste=5",
-        "expected_value": "5",
+        "observed_value": "LEconomiste=131",
+        "expected_value": "131",
         "details": "Per-source sentiment article_count should match articles_by_source."
       },
       {
@@ -549,7 +565,7 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.2",
+        "observed_value": "0.0305",
         "expected_value": "between -1 and 1",
         "details": "Average sentiment score must stay in the normalized sentiment range."
       },
@@ -558,8 +574,8 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "Reuters=5",
-        "expected_value": "5",
+        "observed_value": "Reuters=55",
+        "expected_value": "55",
         "details": "Per-source sentiment article_count should match articles_by_source."
       },
       {
@@ -567,7 +583,7 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.2",
+        "observed_value": "0.0182",
         "expected_value": "between -1 and 1",
         "details": "Average sentiment score must stay in the normalized sentiment range."
       },
@@ -576,8 +592,8 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "YahooFinance=10",
-        "expected_value": "10",
+        "observed_value": "YahooFinance=89",
+        "expected_value": "89",
         "details": "Per-source sentiment article_count should match articles_by_source."
       },
       {
@@ -585,7 +601,7 @@
         "dimension": "average_sentiment_by_source",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.082",
+        "observed_value": "0.1606",
         "expected_value": "between -1 and 1",
         "details": "Average sentiment score must stay in the normalized sentiment range."
       },
@@ -594,7 +610,7 @@
         "dimension": "validity",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.738",
+        "observed_value": "0.6599",
         "expected_value": "between 0 and 1",
         "details": "Average quality score must be normalized."
       },
@@ -612,7 +628,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "leconomiste_20260508_275b5f",
+        "observed_value": "yahoofinance_20260509_46c2a4",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -621,7 +637,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.leconomiste.com/flash-infos/abdelwahab-doukkali-nest-plus/",
+        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-nvidia-stock-164700393.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -630,7 +646,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "neutral",
+        "observed_value": "positive",
         "expected_value": "['negative', 'neutral', 'positive']",
         "details": "Sentiment must be in the accepted categories."
       },
@@ -639,7 +655,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.55",
+        "observed_value": "0.92",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -648,7 +664,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": null,
+        "observed_value": "2026-05-09T16:47:00Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -666,7 +682,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "leconomiste_20260508_823e5b",
+        "observed_value": "yahoofinance_20260509_9498ff",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -675,7 +691,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.leconomiste.com/flash-infos/hantavirus-rapatriement-des-passagers-du-mv-hondius-prevu-dimanche-a-tenerife/",
+        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/analyze-mutual-funds-etfs-164336449.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -684,7 +700,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "neutral",
+        "observed_value": "positive",
         "expected_value": "['negative', 'neutral', 'positive']",
         "details": "Sentiment must be in the accepted categories."
       },
@@ -693,7 +709,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.67",
+        "observed_value": "0.9",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -702,7 +718,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": null,
+        "observed_value": "2026-05-09T16:43:36Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -720,7 +736,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "leconomiste_20260508_ce6893",
+        "observed_value": "yahoofinance_20260509_385309",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -729,7 +745,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.leconomiste.com/flash-infos/cooperation-securitaire-abdellatif-hammouchi-en-visite-de-travail-en-turquie/",
+        "observed_value": "https://finance.yahoo.com/sectors/energy/articles/energy-fund-yielding-7-14-163538412.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -738,7 +754,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "neutral",
+        "observed_value": "positive",
         "expected_value": "['negative', 'neutral', 'positive']",
         "details": "Sentiment must be in the accepted categories."
       },
@@ -747,7 +763,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.63",
+        "observed_value": "0.9",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -756,7 +772,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": null,
+        "observed_value": "2026-05-09T16:35:38Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -774,7 +790,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "yahoofinance_20260508_7dab12",
+        "observed_value": "yahoofinance_20260509_e90ea4",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -783,7 +799,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/toyota-operating-profits-drop-21-152020806.html",
+        "observed_value": "https://finance.yahoo.com/sectors/healthcare/articles/could-buying-beaten-down-healthcare-163500394.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -792,7 +808,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "positive",
+        "observed_value": "negative",
         "expected_value": "['negative', 'neutral', 'positive']",
         "details": "Sentiment must be in the accepted categories."
       },
@@ -801,7 +817,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.92",
+        "observed_value": "0.91",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -810,7 +826,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": "2026-05-08T15:20:20Z",
+        "observed_value": "2026-05-09T16:35:00Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -828,7 +844,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "investing_20260508_c5455b",
+        "observed_value": "yahoofinance_20260509_3c53f1",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -837,7 +853,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.investing.com/news/filings/form-144-plexus-for-8-may-93CH-4673312",
+        "observed_value": "https://finance.yahoo.com/economy/articles/mcdonald-ceo-sounds-warning-consumer-163300868.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -846,7 +862,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "positive",
+        "observed_value": "negative",
         "expected_value": "['negative', 'neutral', 'positive']",
         "details": "Sentiment must be in the accepted categories."
       },
@@ -855,7 +871,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.7",
+        "observed_value": "0.91",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -864,7 +880,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": "2026-05-08T15:18:15Z",
+        "observed_value": "2026-05-09T16:33:00Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -882,7 +898,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "investing_20260508_985613",
+        "observed_value": "investing_20260509_e72456",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -891,7 +907,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.investing.com/news/company-news/ceres-power-grants-share-options-to-executives-under-sharesave-plan-93CH-4673311",
+        "observed_value": "https://www.investing.com/news/company-news/pacira-q1-2026-slides-exparel-growth-accelerates-margins-compress-93CH-4674663",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -909,7 +925,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.92",
+        "observed_value": "0.36",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -918,7 +934,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": "2026-05-08T15:17:20Z",
+        "observed_value": "2026-05-09T16:31:47Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -936,7 +952,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "investing_20260508_a0cc3a",
+        "observed_value": "yahoofinance_20260509_fe31ec",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -945,115 +961,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.investing.com/news/economic-indicators/trump-administration-will-win-appeal-of-ruling-against-temporary-tariffs-us-trade-chief-says-4673313",
-        "expected_value": "http(s) URL",
-        "details": "Article URL must be usable for navigation."
-      },
-      {
-        "check_name": "latest_article_sentiment_valid",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "positive",
-        "expected_value": "['negative', 'neutral', 'positive']",
-        "details": "Sentiment must be in the accepted categories."
-      },
-      {
-        "check_name": "latest_article_quality_score_range",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "0.91",
-        "expected_value": "between 0 and 1",
-        "details": "Article quality score must be normalized."
-      },
-      {
-        "check_name": "latest_article_timestamp_parseable",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "warning",
-        "observed_value": "2026-05-08T15:16:20Z",
-        "expected_value": "ISO-8601 timestamp or null",
-        "details": "Publication timestamp must be parseable when present."
-      },
-      {
-        "check_name": "latest_article_required_fields",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "row=8",
-        "expected_value": "article_id, source, title, url present",
-        "details": "Latest article rows must keep drill-down identifiers."
-      },
-      {
-        "check_name": "latest_article_unique_id",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "investing_20260508_f6073c",
-        "expected_value": "unique non-empty article_id",
-        "details": "Latest article identifiers should not repeat."
-      },
-      {
-        "check_name": "latest_article_url_valid",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "https://www.investing.com/news/stock-market-news/factboxairlines-tackle-fuel-cost-surge-with-price-hikes-outlook-cuts-4673314",
-        "expected_value": "http(s) URL",
-        "details": "Article URL must be usable for navigation."
-      },
-      {
-        "check_name": "latest_article_sentiment_valid",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "positive",
-        "expected_value": "['negative', 'neutral', 'positive']",
-        "details": "Sentiment must be in the accepted categories."
-      },
-      {
-        "check_name": "latest_article_quality_score_range",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "0.91",
-        "expected_value": "between 0 and 1",
-        "details": "Article quality score must be normalized."
-      },
-      {
-        "check_name": "latest_article_timestamp_parseable",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "warning",
-        "observed_value": "2026-05-08T15:15:06Z",
-        "expected_value": "ISO-8601 timestamp or null",
-        "details": "Publication timestamp must be parseable when present."
-      },
-      {
-        "check_name": "latest_article_required_fields",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "row=9",
-        "expected_value": "article_id, source, title, url present",
-        "details": "Latest article rows must keep drill-down identifiers."
-      },
-      {
-        "check_name": "latest_article_unique_id",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "yahoofinance_20260508_d9242d",
-        "expected_value": "unique non-empty article_id",
-        "details": "Latest article identifiers should not repeat."
-      },
-      {
-        "check_name": "latest_article_url_valid",
-        "dimension": "latest_articles",
-        "status": "passed",
-        "severity": "error",
-        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/polestar-first-quarter-loss-widens-151115074.html",
+        "observed_value": "https://finance.yahoo.com/economy/policy/articles/goldman-sachs-says-40-americans-163137779.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -1080,7 +988,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": "2026-05-08T15:11:15Z",
+        "observed_value": "2026-05-09T16:31:37Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },
@@ -1089,7 +997,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "row=10",
+        "observed_value": "row=8",
         "expected_value": "article_id, source, title, url present",
         "details": "Latest article rows must keep drill-down identifiers."
       },
@@ -1098,7 +1006,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "leconomiste_20260508_e21055",
+        "observed_value": "yahoofinance_20260509_793448",
         "expected_value": "unique non-empty article_id",
         "details": "Latest article identifiers should not repeat."
       },
@@ -1107,7 +1015,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "https://www.leconomiste.com/flash-infos/marche-obligataire-legere-hausse-sur-le-secondaire/",
+        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/2-brilliant-dividend-stocks-down-162500147.html",
         "expected_value": "http(s) URL",
         "details": "Article URL must be usable for navigation."
       },
@@ -1125,7 +1033,7 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "error",
-        "observed_value": "0.58",
+        "observed_value": "0.92",
         "expected_value": "between 0 and 1",
         "details": "Article quality score must be normalized."
       },
@@ -1134,7 +1042,115 @@
         "dimension": "latest_articles",
         "status": "passed",
         "severity": "warning",
-        "observed_value": null,
+        "observed_value": "2026-05-09T16:25:00Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=9",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "yahoofinance_20260509_f90846",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://finance.yahoo.com/economy/policy/articles/why-retirees-claim-social-security-162000298.html",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.87",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-09T16:20:00Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=10",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "yahoofinance_20260509_f07856",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.fool.com/coverage/filings/2026/05/09/energy-fund-yielding-7-and-up-14-in-a-year-still-wasn-t-enough-to-stop-this-usd3-million-exit/?.tsrc=rss",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "neutral",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.88",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-09T16:15:38Z",
         "expected_value": "ISO-8601 timestamp or null",
         "details": "Publication timestamp must be parseable when present."
       },

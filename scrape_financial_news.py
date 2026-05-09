@@ -1064,6 +1064,7 @@ def post_event(webhook_url: str, record: dict[str, Any]) -> None:
 
 def create_kafka_producer(bootstrap_servers: str) -> Any:
     try:
+        # pyrefly: ignore [missing-import]
         from kafka import KafkaProducer
     except ImportError as exc:
         raise RuntimeError("Kafka ingestion requires kafka-python. Install it with: pip install -r requirements.txt") from exc
