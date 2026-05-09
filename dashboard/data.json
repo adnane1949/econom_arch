@@ -1,0 +1,1159 @@
+{
+  "gold": {
+    "generated_at": "2026-05-08T16:34:24Z",
+    "engine": "spark",
+    "record_count": 30,
+    "average_quality_score": 0.738,
+    "articles_by_source": [
+      {
+        "value": "Investing",
+        "count": 10
+      },
+      {
+        "value": "YahooFinance",
+        "count": 10
+      },
+      {
+        "value": "LEconomiste",
+        "count": 5
+      },
+      {
+        "value": "Reuters",
+        "count": 5
+      }
+    ],
+    "articles_by_topic": [
+      {
+        "value": "Stock Market",
+        "count": 14
+      },
+      {
+        "value": "Business",
+        "count": 4
+      },
+      {
+        "value": "Technology",
+        "count": 4
+      },
+      {
+        "value": "Currencies",
+        "count": 3
+      },
+      {
+        "value": "Banking",
+        "count": 2
+      },
+      {
+        "value": "Oil Market",
+        "count": 2
+      },
+      {
+        "value": "Inflation",
+        "count": 1
+      }
+    ],
+    "articles_by_sentiment": [
+      {
+        "value": "positive",
+        "count": 16
+      },
+      {
+        "value": "neutral",
+        "count": 12
+      },
+      {
+        "value": "negative",
+        "count": 2
+      }
+    ],
+    "articles_by_language": [
+      {
+        "value": "en",
+        "count": 25
+      },
+      {
+        "value": "fr",
+        "count": 5
+      }
+    ],
+    "articles_by_source_country": [
+      {
+        "value": "US",
+        "count": 20
+      },
+      {
+        "value": "MA",
+        "count": 5
+      },
+      {
+        "value": "UK",
+        "count": 5
+      }
+    ],
+    "average_sentiment_by_source": [
+      {
+        "source": "Investing",
+        "average_sentiment_score": 0.524,
+        "article_count": 10
+      },
+      {
+        "source": "LEconomiste",
+        "average_sentiment_score": 0.2,
+        "article_count": 5
+      },
+      {
+        "source": "Reuters",
+        "average_sentiment_score": 0.2,
+        "article_count": 5
+      },
+      {
+        "source": "YahooFinance",
+        "average_sentiment_score": 0.082,
+        "article_count": 10
+      }
+    ],
+    "top_tags": [
+      {
+        "value": "stock",
+        "count": 7
+      },
+      {
+        "value": "company",
+        "count": 4
+      },
+      {
+        "value": "price",
+        "count": 4
+      },
+      {
+        "value": "said",
+        "count": 4
+      },
+      {
+        "value": "year",
+        "count": 4
+      },
+      {
+        "value": "cramer",
+        "count": 3
+      },
+      {
+        "value": "jobs",
+        "count": 3
+      },
+      {
+        "value": "nasdaq",
+        "count": 3
+      },
+      {
+        "value": "prices",
+        "count": 3
+      },
+      {
+        "value": "strong",
+        "count": 3
+      }
+    ],
+    "top_companies": [
+      {
+        "value": "Alphabet Inc",
+        "count": 1
+      },
+      {
+        "value": "Bangkok-based OBON Corp",
+        "count": 1
+      },
+      {
+        "value": "Caseys General Stores Inc",
+        "count": 1
+      },
+      {
+        "value": "Ceres Power Holdings",
+        "count": 1
+      },
+      {
+        "value": "Cloud Services Market Alphabet Inc",
+        "count": 1
+      },
+      {
+        "value": "Geely Sweden Holdings",
+        "count": 1
+      },
+      {
+        "value": "Holley Inc",
+        "count": 1
+      },
+      {
+        "value": "If Microsoft",
+        "count": 1
+      },
+      {
+        "value": "Ray-Ban Meta",
+        "count": 1
+      },
+      {
+        "value": "Standard Chartered Bank",
+        "count": 1
+      }
+    ],
+    "top_currencies": [
+      {
+        "value": "DOLLARS",
+        "count": 3
+      },
+      {
+        "value": "DOLLAR",
+        "count": 2
+      },
+      {
+        "value": "EURO",
+        "count": 2
+      },
+      {
+        "value": "EUR",
+        "count": 1
+      },
+      {
+        "value": "EUROS",
+        "count": 1
+      },
+      {
+        "value": "MAD",
+        "count": 1
+      },
+      {
+        "value": "USD",
+        "count": 1
+      }
+    ],
+    "top_countries_mentioned": [
+      {
+        "value": "US",
+        "count": 11
+      },
+      {
+        "value": "China",
+        "count": 5
+      },
+      {
+        "value": "Canada",
+        "count": 2
+      },
+      {
+        "value": "Japan",
+        "count": 2
+      },
+      {
+        "value": "Spain",
+        "count": 2
+      },
+      {
+        "value": "United States",
+        "count": 2
+      },
+      {
+        "value": "Brazil",
+        "count": 1
+      },
+      {
+        "value": "France",
+        "count": 1
+      },
+      {
+        "value": "India",
+        "count": 1
+      },
+      {
+        "value": "Qatar",
+        "count": 1
+      }
+    ],
+    "latest_articles": [
+      {
+        "article_id": "leconomiste_20260508_275b5f",
+        "source": "LEconomiste",
+        "title": "Abdelwahab Doukkali n'est plus - L'Economiste",
+        "url": "https://www.leconomiste.com/flash-infos/abdelwahab-doukkali-nest-plus/",
+        "publication_timestamp": null,
+        "sentiment": "neutral",
+        "topic": "Technology",
+        "quality_score": 0.55
+      },
+      {
+        "article_id": "leconomiste_20260508_823e5b",
+        "source": "LEconomiste",
+        "title": "Hantavirus : rapatriement des passagers du MV Hondius prévu dimanche à Tenerife - L'Economiste",
+        "url": "https://www.leconomiste.com/flash-infos/hantavirus-rapatriement-des-passagers-du-mv-hondius-prevu-dimanche-a-tenerife/",
+        "publication_timestamp": null,
+        "sentiment": "neutral",
+        "topic": "Business",
+        "quality_score": 0.67
+      },
+      {
+        "article_id": "leconomiste_20260508_ce6893",
+        "source": "LEconomiste",
+        "title": "Coopération sécuritaire : Abdellatif Hammouchi en visite de travail en Turquie - L'Economiste",
+        "url": "https://www.leconomiste.com/flash-infos/cooperation-securitaire-abdellatif-hammouchi-en-visite-de-travail-en-turquie/",
+        "publication_timestamp": null,
+        "sentiment": "neutral",
+        "topic": "Technology",
+        "quality_score": 0.63
+      },
+      {
+        "article_id": "yahoofinance_20260508_7dab12",
+        "source": "YahooFinance",
+        "title": "Toyota operating profits drop 21.5% as US tariffs take Y1.38tn toll",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/toyota-operating-profits-drop-21-152020806.html",
+        "publication_timestamp": "2026-05-08T15:20:20Z",
+        "sentiment": "positive",
+        "topic": "Currencies",
+        "quality_score": 0.92
+      },
+      {
+        "article_id": "investing_20260508_c5455b",
+        "source": "Investing",
+        "title": "Form 144 Plexus For: 8 May",
+        "url": "https://www.investing.com/news/filings/form-144-plexus-for-8-may-93CH-4673312",
+        "publication_timestamp": "2026-05-08T15:18:15Z",
+        "sentiment": "positive",
+        "topic": "Stock Market",
+        "quality_score": 0.7
+      },
+      {
+        "article_id": "investing_20260508_985613",
+        "source": "Investing",
+        "title": "Ceres Power grants share options to executives under sharesave plan",
+        "url": "https://www.investing.com/news/company-news/ceres-power-grants-share-options-to-executives-under-sharesave-plan-93CH-4673311",
+        "publication_timestamp": "2026-05-08T15:17:20Z",
+        "sentiment": "positive",
+        "topic": "Stock Market",
+        "quality_score": 0.92
+      },
+      {
+        "article_id": "investing_20260508_a0cc3a",
+        "source": "Investing",
+        "title": "Trump administration will win appeal of ruling against temporary tariffs, US trade chief says",
+        "url": "https://www.investing.com/news/economic-indicators/trump-administration-will-win-appeal-of-ruling-against-temporary-tariffs-us-trade-chief-says-4673313",
+        "publication_timestamp": "2026-05-08T15:16:20Z",
+        "sentiment": "positive",
+        "topic": "Stock Market",
+        "quality_score": 0.91
+      },
+      {
+        "article_id": "investing_20260508_f6073c",
+        "source": "Investing",
+        "title": "Factbox-Airlines tackle fuel cost surge with price hikes, outlook cuts",
+        "url": "https://www.investing.com/news/stock-market-news/factboxairlines-tackle-fuel-cost-surge-with-price-hikes-outlook-cuts-4673314",
+        "publication_timestamp": "2026-05-08T15:15:06Z",
+        "sentiment": "positive",
+        "topic": "Stock Market",
+        "quality_score": 0.91
+      },
+      {
+        "article_id": "yahoofinance_20260508_d9242d",
+        "source": "YahooFinance",
+        "title": "Polestar first quarter loss widens on tariffs and pricing pressure",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/polestar-first-quarter-loss-widens-151115074.html",
+        "publication_timestamp": "2026-05-08T15:11:15Z",
+        "sentiment": "neutral",
+        "topic": "Currencies",
+        "quality_score": 0.92
+      },
+      {
+        "article_id": "leconomiste_20260508_e21055",
+        "source": "LEconomiste",
+        "title": "Marché obligataire : légère hausse sur le secondaire - L'Economiste",
+        "url": "https://www.leconomiste.com/flash-infos/marche-obligataire-legere-hausse-sur-le-secondaire/",
+        "publication_timestamp": null,
+        "sentiment": "positive",
+        "topic": "Banking",
+        "quality_score": 0.58
+      }
+    ]
+  },
+  "quality": {
+    "checks": [
+      {
+        "check_name": "required_header_fields",
+        "dimension": "completeness",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "generated_at=2026-05-08T16:34:24Z record_count=30",
+        "expected_value": "generated_at present and record_count integer",
+        "details": "Gold snapshot header must identify the run and row count."
+      },
+      {
+        "check_name": "non_empty_snapshot",
+        "dimension": "completeness",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "30",
+        "expected_value": "> 0",
+        "details": "Gold snapshot should contain at least one article."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "articles_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "articles_by_source must be present as a list."
+      },
+      {
+        "check_name": "count_total_matches_record_count",
+        "dimension": "articles_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "30",
+        "expected_value": "30",
+        "details": "articles_by_source counts should add up to record_count."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "articles_by_topic",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "articles_by_topic must be present as a list."
+      },
+      {
+        "check_name": "count_total_matches_record_count",
+        "dimension": "articles_by_topic",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "30",
+        "expected_value": "30",
+        "details": "articles_by_topic counts should add up to record_count."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "articles_by_sentiment",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "articles_by_sentiment must be present as a list."
+      },
+      {
+        "check_name": "count_total_matches_record_count",
+        "dimension": "articles_by_sentiment",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "30",
+        "expected_value": "30",
+        "details": "articles_by_sentiment counts should add up to record_count."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "articles_by_language",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "articles_by_language must be present as a list."
+      },
+      {
+        "check_name": "count_total_matches_record_count",
+        "dimension": "articles_by_language",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "30",
+        "expected_value": "30",
+        "details": "articles_by_language counts should add up to record_count."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "articles_by_source_country",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "articles_by_source_country must be present as a list."
+      },
+      {
+        "check_name": "count_total_matches_record_count",
+        "dimension": "articles_by_source_country",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "30",
+        "expected_value": "30",
+        "details": "articles_by_source_country counts should add up to record_count."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "top_tags",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "top_tags must be present as a list."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "top_companies",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "top_companies must be present as a list."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "top_currencies",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "top_currencies must be present as a list."
+      },
+      {
+        "check_name": "section_present",
+        "dimension": "top_countries_mentioned",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "list",
+        "expected_value": "list",
+        "details": "top_countries_mentioned must be present as a list."
+      },
+      {
+        "check_name": "source_sentiment_count_matches_source_count",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "Investing=10",
+        "expected_value": "10",
+        "details": "Per-source sentiment article_count should match articles_by_source."
+      },
+      {
+        "check_name": "average_sentiment_score_range",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.524",
+        "expected_value": "between -1 and 1",
+        "details": "Average sentiment score must stay in the normalized sentiment range."
+      },
+      {
+        "check_name": "source_sentiment_count_matches_source_count",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "LEconomiste=5",
+        "expected_value": "5",
+        "details": "Per-source sentiment article_count should match articles_by_source."
+      },
+      {
+        "check_name": "average_sentiment_score_range",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.2",
+        "expected_value": "between -1 and 1",
+        "details": "Average sentiment score must stay in the normalized sentiment range."
+      },
+      {
+        "check_name": "source_sentiment_count_matches_source_count",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "Reuters=5",
+        "expected_value": "5",
+        "details": "Per-source sentiment article_count should match articles_by_source."
+      },
+      {
+        "check_name": "average_sentiment_score_range",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.2",
+        "expected_value": "between -1 and 1",
+        "details": "Average sentiment score must stay in the normalized sentiment range."
+      },
+      {
+        "check_name": "source_sentiment_count_matches_source_count",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "YahooFinance=10",
+        "expected_value": "10",
+        "details": "Per-source sentiment article_count should match articles_by_source."
+      },
+      {
+        "check_name": "average_sentiment_score_range",
+        "dimension": "average_sentiment_by_source",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.082",
+        "expected_value": "between -1 and 1",
+        "details": "Average sentiment score must stay in the normalized sentiment range."
+      },
+      {
+        "check_name": "average_quality_score_range",
+        "dimension": "validity",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.738",
+        "expected_value": "between 0 and 1",
+        "details": "Average quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=1",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "leconomiste_20260508_275b5f",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.leconomiste.com/flash-infos/abdelwahab-doukkali-nest-plus/",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "neutral",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.55",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": null,
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=2",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "leconomiste_20260508_823e5b",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.leconomiste.com/flash-infos/hantavirus-rapatriement-des-passagers-du-mv-hondius-prevu-dimanche-a-tenerife/",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "neutral",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.67",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": null,
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=3",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "leconomiste_20260508_ce6893",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.leconomiste.com/flash-infos/cooperation-securitaire-abdellatif-hammouchi-en-visite-de-travail-en-turquie/",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "neutral",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.63",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": null,
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=4",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "yahoofinance_20260508_7dab12",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/toyota-operating-profits-drop-21-152020806.html",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.92",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-08T15:20:20Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=5",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "investing_20260508_c5455b",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.investing.com/news/filings/form-144-plexus-for-8-may-93CH-4673312",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.7",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-08T15:18:15Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=6",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "investing_20260508_985613",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.investing.com/news/company-news/ceres-power-grants-share-options-to-executives-under-sharesave-plan-93CH-4673311",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.92",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-08T15:17:20Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=7",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "investing_20260508_a0cc3a",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.investing.com/news/economic-indicators/trump-administration-will-win-appeal-of-ruling-against-temporary-tariffs-us-trade-chief-says-4673313",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.91",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-08T15:16:20Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=8",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "investing_20260508_f6073c",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.investing.com/news/stock-market-news/factboxairlines-tackle-fuel-cost-surge-with-price-hikes-outlook-cuts-4673314",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.91",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-08T15:15:06Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=9",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "yahoofinance_20260508_d9242d",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://finance.yahoo.com/markets/stocks/articles/polestar-first-quarter-loss-widens-151115074.html",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "neutral",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.92",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "2026-05-08T15:11:15Z",
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "latest_article_required_fields",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "row=10",
+        "expected_value": "article_id, source, title, url present",
+        "details": "Latest article rows must keep drill-down identifiers."
+      },
+      {
+        "check_name": "latest_article_unique_id",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "leconomiste_20260508_e21055",
+        "expected_value": "unique non-empty article_id",
+        "details": "Latest article identifiers should not repeat."
+      },
+      {
+        "check_name": "latest_article_url_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "https://www.leconomiste.com/flash-infos/marche-obligataire-legere-hausse-sur-le-secondaire/",
+        "expected_value": "http(s) URL",
+        "details": "Article URL must be usable for navigation."
+      },
+      {
+        "check_name": "latest_article_sentiment_valid",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "positive",
+        "expected_value": "['negative', 'neutral', 'positive']",
+        "details": "Sentiment must be in the accepted categories."
+      },
+      {
+        "check_name": "latest_article_quality_score_range",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "error",
+        "observed_value": "0.58",
+        "expected_value": "between 0 and 1",
+        "details": "Article quality score must be normalized."
+      },
+      {
+        "check_name": "latest_article_timestamp_parseable",
+        "dimension": "latest_articles",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": null,
+        "expected_value": "ISO-8601 timestamp or null",
+        "details": "Publication timestamp must be parseable when present."
+      },
+      {
+        "check_name": "language_codes_valid",
+        "dimension": "articles_by_language",
+        "status": "passed",
+        "severity": "warning",
+        "observed_value": "[]",
+        "expected_value": "['ar', 'de', 'en', 'es', 'fr', 'it', 'pt', 'unknown']",
+        "details": "Language breakdown should use expected ISO-like codes."
+      }
+    ],
+    "summary": {
+      "total_checks": 86,
+      "passed_checks": 86,
+      "failed_errors": 0,
+      "failed_warnings": 0,
+      "status": "passed"
+    }
+  }
+}

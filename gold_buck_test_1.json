@@ -1,0 +1,372 @@
+{
+  "generated_at": "2026-05-08T16:34:24Z",
+  "engine": "spark",
+  "record_count": 30,
+  "average_quality_score": 0.738,
+  "articles_by_source": [
+    {
+      "value": "Investing",
+      "count": 10
+    },
+    {
+      "value": "YahooFinance",
+      "count": 10
+    },
+    {
+      "value": "LEconomiste",
+      "count": 5
+    },
+    {
+      "value": "Reuters",
+      "count": 5
+    }
+  ],
+  "articles_by_topic": [
+    {
+      "value": "Stock Market",
+      "count": 14
+    },
+    {
+      "value": "Business",
+      "count": 4
+    },
+    {
+      "value": "Technology",
+      "count": 4
+    },
+    {
+      "value": "Currencies",
+      "count": 3
+    },
+    {
+      "value": "Banking",
+      "count": 2
+    },
+    {
+      "value": "Oil Market",
+      "count": 2
+    },
+    {
+      "value": "Inflation",
+      "count": 1
+    }
+  ],
+  "articles_by_sentiment": [
+    {
+      "value": "positive",
+      "count": 16
+    },
+    {
+      "value": "neutral",
+      "count": 12
+    },
+    {
+      "value": "negative",
+      "count": 2
+    }
+  ],
+  "articles_by_language": [
+    {
+      "value": "en",
+      "count": 25
+    },
+    {
+      "value": "fr",
+      "count": 5
+    }
+  ],
+  "articles_by_source_country": [
+    {
+      "value": "US",
+      "count": 20
+    },
+    {
+      "value": "MA",
+      "count": 5
+    },
+    {
+      "value": "UK",
+      "count": 5
+    }
+  ],
+  "average_sentiment_by_source": [
+    {
+      "source": "Investing",
+      "average_sentiment_score": 0.524,
+      "article_count": 10
+    },
+    {
+      "source": "LEconomiste",
+      "average_sentiment_score": 0.2,
+      "article_count": 5
+    },
+    {
+      "source": "Reuters",
+      "average_sentiment_score": 0.2,
+      "article_count": 5
+    },
+    {
+      "source": "YahooFinance",
+      "average_sentiment_score": 0.082,
+      "article_count": 10
+    }
+  ],
+  "top_tags": [
+    {
+      "value": "stock",
+      "count": 7
+    },
+    {
+      "value": "company",
+      "count": 4
+    },
+    {
+      "value": "price",
+      "count": 4
+    },
+    {
+      "value": "said",
+      "count": 4
+    },
+    {
+      "value": "year",
+      "count": 4
+    },
+    {
+      "value": "cramer",
+      "count": 3
+    },
+    {
+      "value": "jobs",
+      "count": 3
+    },
+    {
+      "value": "nasdaq",
+      "count": 3
+    },
+    {
+      "value": "prices",
+      "count": 3
+    },
+    {
+      "value": "strong",
+      "count": 3
+    }
+  ],
+  "top_companies": [
+    {
+      "value": "Alphabet Inc",
+      "count": 1
+    },
+    {
+      "value": "Bangkok-based OBON Corp",
+      "count": 1
+    },
+    {
+      "value": "Caseys General Stores Inc",
+      "count": 1
+    },
+    {
+      "value": "Ceres Power Holdings",
+      "count": 1
+    },
+    {
+      "value": "Cloud Services Market Alphabet Inc",
+      "count": 1
+    },
+    {
+      "value": "Geely Sweden Holdings",
+      "count": 1
+    },
+    {
+      "value": "Holley Inc",
+      "count": 1
+    },
+    {
+      "value": "If Microsoft",
+      "count": 1
+    },
+    {
+      "value": "Ray-Ban Meta",
+      "count": 1
+    },
+    {
+      "value": "Standard Chartered Bank",
+      "count": 1
+    }
+  ],
+  "top_currencies": [
+    {
+      "value": "DOLLARS",
+      "count": 3
+    },
+    {
+      "value": "DOLLAR",
+      "count": 2
+    },
+    {
+      "value": "EURO",
+      "count": 2
+    },
+    {
+      "value": "EUR",
+      "count": 1
+    },
+    {
+      "value": "EUROS",
+      "count": 1
+    },
+    {
+      "value": "MAD",
+      "count": 1
+    },
+    {
+      "value": "USD",
+      "count": 1
+    }
+  ],
+  "top_countries_mentioned": [
+    {
+      "value": "US",
+      "count": 11
+    },
+    {
+      "value": "China",
+      "count": 5
+    },
+    {
+      "value": "Canada",
+      "count": 2
+    },
+    {
+      "value": "Japan",
+      "count": 2
+    },
+    {
+      "value": "Spain",
+      "count": 2
+    },
+    {
+      "value": "United States",
+      "count": 2
+    },
+    {
+      "value": "Brazil",
+      "count": 1
+    },
+    {
+      "value": "France",
+      "count": 1
+    },
+    {
+      "value": "India",
+      "count": 1
+    },
+    {
+      "value": "Qatar",
+      "count": 1
+    }
+  ],
+  "latest_articles": [
+    {
+      "article_id": "leconomiste_20260508_275b5f",
+      "source": "LEconomiste",
+      "title": "Abdelwahab Doukkali n'est plus - L'Economiste",
+      "url": "https://www.leconomiste.com/flash-infos/abdelwahab-doukkali-nest-plus/",
+      "publication_timestamp": null,
+      "sentiment": "neutral",
+      "topic": "Technology",
+      "quality_score": 0.55
+    },
+    {
+      "article_id": "leconomiste_20260508_823e5b",
+      "source": "LEconomiste",
+      "title": "Hantavirus : rapatriement des passagers du MV Hondius prévu dimanche à Tenerife - L'Economiste",
+      "url": "https://www.leconomiste.com/flash-infos/hantavirus-rapatriement-des-passagers-du-mv-hondius-prevu-dimanche-a-tenerife/",
+      "publication_timestamp": null,
+      "sentiment": "neutral",
+      "topic": "Business",
+      "quality_score": 0.67
+    },
+    {
+      "article_id": "leconomiste_20260508_ce6893",
+      "source": "LEconomiste",
+      "title": "Coopération sécuritaire : Abdellatif Hammouchi en visite de travail en Turquie - L'Economiste",
+      "url": "https://www.leconomiste.com/flash-infos/cooperation-securitaire-abdellatif-hammouchi-en-visite-de-travail-en-turquie/",
+      "publication_timestamp": null,
+      "sentiment": "neutral",
+      "topic": "Technology",
+      "quality_score": 0.63
+    },
+    {
+      "article_id": "yahoofinance_20260508_7dab12",
+      "source": "YahooFinance",
+      "title": "Toyota operating profits drop 21.5% as US tariffs take Y1.38tn toll",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/toyota-operating-profits-drop-21-152020806.html",
+      "publication_timestamp": "2026-05-08T15:20:20Z",
+      "sentiment": "positive",
+      "topic": "Currencies",
+      "quality_score": 0.92
+    },
+    {
+      "article_id": "investing_20260508_c5455b",
+      "source": "Investing",
+      "title": "Form 144 Plexus For: 8 May",
+      "url": "https://www.investing.com/news/filings/form-144-plexus-for-8-may-93CH-4673312",
+      "publication_timestamp": "2026-05-08T15:18:15Z",
+      "sentiment": "positive",
+      "topic": "Stock Market",
+      "quality_score": 0.7
+    },
+    {
+      "article_id": "investing_20260508_985613",
+      "source": "Investing",
+      "title": "Ceres Power grants share options to executives under sharesave plan",
+      "url": "https://www.investing.com/news/company-news/ceres-power-grants-share-options-to-executives-under-sharesave-plan-93CH-4673311",
+      "publication_timestamp": "2026-05-08T15:17:20Z",
+      "sentiment": "positive",
+      "topic": "Stock Market",
+      "quality_score": 0.92
+    },
+    {
+      "article_id": "investing_20260508_a0cc3a",
+      "source": "Investing",
+      "title": "Trump administration will win appeal of ruling against temporary tariffs, US trade chief says",
+      "url": "https://www.investing.com/news/economic-indicators/trump-administration-will-win-appeal-of-ruling-against-temporary-tariffs-us-trade-chief-says-4673313",
+      "publication_timestamp": "2026-05-08T15:16:20Z",
+      "sentiment": "positive",
+      "topic": "Stock Market",
+      "quality_score": 0.91
+    },
+    {
+      "article_id": "investing_20260508_f6073c",
+      "source": "Investing",
+      "title": "Factbox-Airlines tackle fuel cost surge with price hikes, outlook cuts",
+      "url": "https://www.investing.com/news/stock-market-news/factboxairlines-tackle-fuel-cost-surge-with-price-hikes-outlook-cuts-4673314",
+      "publication_timestamp": "2026-05-08T15:15:06Z",
+      "sentiment": "positive",
+      "topic": "Stock Market",
+      "quality_score": 0.91
+    },
+    {
+      "article_id": "yahoofinance_20260508_d9242d",
+      "source": "YahooFinance",
+      "title": "Polestar first quarter loss widens on tariffs and pricing pressure",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/polestar-first-quarter-loss-widens-151115074.html",
+      "publication_timestamp": "2026-05-08T15:11:15Z",
+      "sentiment": "neutral",
+      "topic": "Currencies",
+      "quality_score": 0.92
+    },
+    {
+      "article_id": "leconomiste_20260508_e21055",
+      "source": "LEconomiste",
+      "title": "Marché obligataire : légère hausse sur le secondaire - L'Economiste",
+      "url": "https://www.leconomiste.com/flash-infos/marche-obligataire-legere-hausse-sur-le-secondaire/",
+      "publication_timestamp": null,
+      "sentiment": "positive",
+      "topic": "Banking",
+      "quality_score": 0.58
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+[
+  {
+    "metadata": {
+      "article_id": "leconomiste_20260507_d9f8bd",
+      "source": "LEconomiste",
+      "source_country": "MA",
+      "source_type": "financial_news",
+      "scraping_timestamp": "2026-05-07T19:53:22Z",
+      "ingestion_mode": "batch",
+      "pipeline_version": "v1.2",
+      "collector_node": "scraper-node-01"
+    },
+    "article": {
+      "title": "Audiovisuel : Nawfel Raghay nommé DG de l'ARTI - L'Economiste",
+      "subtitle": "L’Association des radios et télévisions indépendantes (ARTI) a annoncé, jeudi, la nomination de Nawfel Raghay en qualité de directeur général, marquant ainsi une nouvelle étape dans le processus de structuration de l’ARTI, qui entend renforcer sa capacité à suivre les mutations que connait le secteur de l’audiovisuel privé au Maroc. Cette nomination s’inscrit dans le […]",
+      "author": "L'Economiste",
+      "publication_timestamp": null,
+      "category": "Technology",
+      "tags": [
+        "arti",
+        "audiovisuel",
+        "nawfel",
+        "raghay",
+        "nomination",
+        "association",
+        "capacité",
+        "médiatique"
+      ],
+      "language": "fr",
+      "url": "https://www.leconomiste.com/flash-infos/audiovisuel-nawfel-raghay-nomme-dg-de-larti/",
+      "content": "L’Association des radios et télévisions indépendantes (ARTI) a annoncé, jeudi, la nomination de Nawfel Raghay en qualité de directeur général, marquant ainsi une nouvelle étape dans le processus de structuration de l’ARTI, qui entend renforcer sa capacité à suivre les mutations que connait le secteur de l’audiovisuel privé au Maroc.",
+      "summary": "L’Association des radios et télévisions indépendantes (ARTI) a annoncé, jeudi, la nomination de Nawfel Raghay en qualité de directeur général, marquant ainsi une nouvelle étape dans le processus de structuration de l’ARTI, qui entend renforcer sa capacité à suivre les mutations que connait le secteur de l’audiovisuel privé au Maroc. Cette nomination s’inscrit dans le cadre des orientations adoptées par l’Assemblée générale du 23 janvier 2026 et du plan d’action 2026-2028 de l’Association, indiqu",
+      "reading_time_minutes": 1
+    },
+    "entities": {
+      "countries_mentioned": [
+        "Maroc"
+      ],
+      "companies_mentioned": [],
+      "currencies_mentioned": [],
+      "people_mentioned": [
+        "American University",
+        "Nawfel Raghay",
+        "Younes Boumehdi"
+      ]
+    },
+    "analytics": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "topic": "Technology",
+      "keyword_frequency": {
+        "arti": 10,
+        "audiovisuel": 6,
+        "nawfel": 5,
+        "raghay": 5,
+        "nomination": 5,
+        "association": 4,
+        "capacité": 4,
+        "médiatique": 4,
+        "renforcer": 3,
+        "secteur": 3,
+        "privé": 3,
+        "inscrit": 3,
+        "radios": 2,
+        "télévisions": 2,
+        "indépendantes": 2
+      },
+      "importance_score": 0.45
+    },
+    "quality": {
+      "is_valid": false,
+      "missing_fields": [
+        "publication_timestamp"
+      ],
+      "content_length": 334,
+      "duplicate_score": 0.0,
+      "quality_score": 0.57
+    },
+    "governance": {
+      "raw_storage_path": "/bronze/leconomiste/2026/05/07/19/leconomiste_20260507_d9f8bd.json",
+      "silver_processed": false,
+      "gold_aggregated": false,
+      "lineage_id": "lineage_78ad9fa3af0b",
+      "retention_policy": "365_days"
+    }
+  },
+  {
+    "metadata": {
+      "article_id": "reuters_20260507_ea98d2",
+      "source": "Reuters",
+      "source_country": "UK",
+      "source_type": "financial_news",
+      "scraping_timestamp": "2026-05-07T19:53:24Z",
+      "ingestion_mode": "batch",
+      "pipeline_version": "v1.2",
+      "collector_node": "scraper-node-01"
+    },
+    "article": {
+      "title": "Us Start Revoking Passports Parents Who Owe Child Support Ap Reports",
+      "subtitle": "",
+      "author": "Reuters Staff",
+      "publication_timestamp": "2026-05-07T00:00:00Z",
+      "category": "",
+      "tags": [],
+      "language": "en",
+      "url": "https://www.reuters.com/business/finance/us-start-revoking-passports-parents-who-owe-child-support-ap-reports-2026-05-07/",
+      "content": "",
+      "summary": "",
+      "reading_time_minutes": 0
+    },
+    "entities": {
+      "countries_mentioned": [
+        "US"
+      ],
+      "companies_mentioned": [],
+      "currencies_mentioned": [],
+      "people_mentioned": [
+        "Ap Reports",
+        "Owe Child Support",
+        "Passports Parents Who",
+        "Us Start Revoking"
+      ]
+    },
+    "analytics": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "topic": "Business",
+      "keyword_frequency": {
+        "start": 1,
+        "revoking": 1,
+        "passports": 1,
+        "parents": 1,
+        "who": 1,
+        "owe": 1,
+        "child": 1,
+        "support": 1,
+        "reports": 1
+      },
+      "importance_score": 0.26
+    },
+    "quality": {
+      "is_valid": false,
+      "missing_fields": [
+        "content",
+        "fetch_error"
+      ],
+      "content_length": 0,
+      "duplicate_score": 0.0,
+      "quality_score": 0.36
+    },
+    "governance": {
+      "raw_storage_path": "/bronze/reuters/2026/05/07/19/reuters_20260507_ea98d2.json",
+      "silver_processed": false,
+      "gold_aggregated": false,
+      "lineage_id": "lineage_8cbe31dfa0aa",
+      "retention_policy": "365_days"
+    }
+  },
+  {
+    "metadata": {
+      "article_id": "yahoofinance_20260507_360a47",
+      "source": "YahooFinance",
+      "source_country": "US",
+      "source_type": "financial_news",
+      "scraping_timestamp": "2026-05-07T19:53:26Z",
+      "ingestion_mode": "batch",
+      "pipeline_version": "v1.2",
+      "collector_node": "scraper-node-01"
+    },
+    "article": {
+      "title": "Box CEO Aaron Levie Says 'Each Engineer Is 2X Or 5X More Capable' As AI Fuels Hiring Surge Instead Of Job Cuts",
+      "subtitle": "Box Inc. CEO Aaron Levie on Saturday said artificial intelligence (AI) is increasing engineer productivity and is more likely to drive hiring growth across...",
+      "author": "Snigdha Gairola",
+      "publication_timestamp": "2026-05-06T09:45:06Z",
+      "category": "Technology",
+      "tags": [
+        "engineers",
+        "levie",
+        "said",
+        "software",
+        "more",
+        "tools",
+        "engineer",
+        "hiring"
+      ],
+      "language": "en",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/box-ceo-aaron-levie-says-094506004.html",
+      "content": "on Saturday said artificial intelligence (AI) is increasing engineer productivity and is more likely to drive hiring growth across industries than reduce the need for software engineers. , Levie challenged the idea that AI will reduce demand for software engineers, outlining a scenario in which businesses historically constrained by cost and talent shortages now gain access to advanced AI tools.",
+      "summary": "on Saturday said artificial intelligence (AI) is increasing engineer productivity and is more likely to drive hiring growth across industries than reduce the need for software engineers. , Levie challenged the idea that AI will reduce demand for software engineers, outlining a scenario in which businesses historically constrained by cost and talent shortages now gain access to advanced AI tools.",
+      "reading_time_minutes": 1
+    },
+    "entities": {
+      "countries_mentioned": [],
+      "companies_mentioned": [
+        "Of Job Cuts Box Inc"
+      ],
+      "currencies_mentioned": [],
+      "people_mentioned": [
+        "Aaron Levie",
+        "Aaron Levie Says",
+        "Each Engineer Is",
+        "Fuels Hiring Surge",
+        "Instead Of Job",
+        "More Capable"
+      ]
+    },
+    "analytics": {
+      "sentiment": "positive",
+      "sentiment_score": 1.0,
+      "topic": "Technology",
+      "keyword_frequency": {
+        "engineers": 8,
+        "said": 7,
+        "software": 7,
+        "more": 6,
+        "levie": 5,
+        "tools": 5,
+        "engineer": 4,
+        "hiring": 4,
+        "industries": 4,
+        "you": 4,
+        "companies": 4,
+        "new": 4,
+        "productivity": 3,
+        "across": 3,
+        "now": 3
+      },
+      "importance_score": 0.76
+    },
+    "quality": {
+      "is_valid": true,
+      "missing_fields": [],
+      "content_length": 398,
+      "duplicate_score": 0.0,
+      "quality_score": 0.71
+    },
+    "governance": {
+      "raw_storage_path": "/bronze/yahoofinance/2026/05/07/19/yahoofinance_20260507_360a47.json",
+      "silver_processed": true,
+      "gold_aggregated": false,
+      "lineage_id": "lineage_92c7f83f9453",
+      "retention_policy": "365_days"
+    }
+  },
+  {
+    "metadata": {
+      "article_id": "investing_20260507_c27fee",
+      "source": "Investing",
+      "source_country": "US",
+      "source_type": "financial_news",
+      "scraping_timestamp": "2026-05-07T19:53:27Z",
+      "ingestion_mode": "batch",
+      "pipeline_version": "v1.2",
+      "collector_node": "scraper-node-01"
+    },
+    "article": {
+      "title": "Form 8K Aflac Inc For: 7 May",
+      "subtitle": "Form 8K Aflac Inc For: 7 May",
+      "author": "Investing.com",
+      "publication_timestamp": "2026-05-07T19:50:32Z",
+      "category": "Filings",
+      "tags": [
+        "form",
+        "aflac",
+        "best",
+        "pares",
+        "losses",
+        "iran",
+        "reviews",
+        "peace"
+      ],
+      "language": "en",
+      "url": "https://www.investing.com/news/filings/form-8k-aflac-inc-for-7-may-93CH-4669669",
+      "content": "Oil pares losses as Iran reviews peace deal, pushes new rules for Hormuz control Shorting this FX pair is the best hedge for war de-escalation: BofA Barclays sees the best setup for energy services in 20 years, names best stocks After soaring 9% yesterday, this AI-picked small cap is up 7%+ in premarket today Join our investing challenges and compete for rewards while you learn!",
+      "summary": "Oil pares losses as Iran reviews peace deal, pushes new rules for Hormuz control Shorting this FX pair is the best hedge for war de-escalation: BofA Barclays sees the best setup for energy services in 20 years, names best stocks After soaring 9% yesterday, this AI-picked small cap is up 7%+ in premarket today Join our investing challenges and compete for rewards while you learn!",
+      "reading_time_minutes": 1
+    },
+    "entities": {
+      "countries_mentioned": [],
+      "companies_mentioned": [
+        "Aflac Inc"
+      ],
+      "currencies_mentioned": [],
+      "people_mentioned": [
+        "May Form",
+        "May Oil"
+      ]
+    },
+    "analytics": {
+      "sentiment": "neutral",
+      "sentiment_score": 0.0,
+      "topic": "Oil Market",
+      "keyword_frequency": {
+        "best": 3,
+        "form": 2,
+        "aflac": 2,
+        "inc": 2,
+        "may": 2,
+        "oil": 1,
+        "pares": 1,
+        "losses": 1,
+        "iran": 1,
+        "reviews": 1,
+        "peace": 1,
+        "deal": 1,
+        "pushes": 1,
+        "new": 1,
+        "rules": 1
+      },
+      "importance_score": 0.3
+    },
+    "quality": {
+      "is_valid": true,
+      "missing_fields": [],
+      "content_length": 381,
+      "duplicate_score": 0.0,
+      "quality_score": 0.7
+    },
+    "governance": {
+      "raw_storage_path": "/bronze/investing/2026/05/07/19/investing_20260507_c27fee.json",
+      "silver_processed": true,
+      "gold_aggregated": false,
+      "lineage_id": "lineage_f4c877475e68",
+      "retention_policy": "365_days"
+    }
+  }
+]

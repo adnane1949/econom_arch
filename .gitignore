@@ -1,0 +1,53 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Kafka
+kafka-logs/
+
+# Docker
+docker-data/
+volumes/
+
+# Databases
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+tmp/
+temp/
+
+# Build
+dist/
+build/

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Financial News Gold Analytics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Gold warehouse dashboard</p>
+        <h1>Financial News Analytics</h1>
+      </div>
+      <div class="run-meta" id="runMeta"></div>
+    </header>
+
+    <main>
+      <section class="kpi-grid" id="kpis"></section>
+
+      <section class="toolbar">
+        <label>
+          Metric
+          <select id="metricSelect"></select>
+        </label>
+        <label>
+          Search articles
+          <input id="articleSearch" type="search" placeholder="source, topic, title" />
+        </label>
+      </section>
+
+      <section class="analytics-grid">
+        <div class="panel wide">
+          <div class="panel-head">
+            <h2 id="metricTitle">Distribution</h2>
+            <span id="metricTotal"></span>
+          </div>
+          <div id="barChart" class="bar-chart"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Sentiment Mix</h2>
+          </div>
+          <div id="donutChart" class="donut-wrap"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Source Sentiment</h2>
+          </div>
+          <div id="sourceSentiment" class="score-list"></div>
+        </div>
+      </section>
+
+      <section class="analytics-grid">
+        <div class="panel wide">
+          <div class="panel-head">
+            <h2>Latest Articles</h2>
+            <span id="articleCount"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Source</th>
+                  <th>Topic</th>
+                  <th>Sentiment</th>
+                  <th>Quality</th>
+                  <th>Title</th>
+                </tr>
+              </thead>
+              <tbody id="articlesTable"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Data Quality</h2>
+            <span id="qualityBadge"></span>
+          </div>
+          <div id="qualitySummary" class="quality-summary"></div>
+          <div id="qualityChecks" class="quality-checks"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
